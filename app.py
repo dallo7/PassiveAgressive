@@ -9,7 +9,7 @@ model = joblib.load("psag")
 #make our Flask api...
 app = Flask(__name__, template_folder = "template" )
 
-server = app.server
+# server = app.server
 
 #form urls/...
 @app.route("/")
